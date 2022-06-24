@@ -6,6 +6,7 @@ body{
     background: #000;
     color: #fff;
     overflow-x: hidden;
+    height: 100vh;
 }
 
 .header{
@@ -135,6 +136,7 @@ body{
     /* display: none; */
     flex: 1;
     transform: translateX(650px);
+    height: 20vh;
     transition: all 2s ease;
 }
 
@@ -149,6 +151,7 @@ li{
 
 .categories{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
@@ -207,11 +210,19 @@ li{
 /* mobile responsive */
 
 @media screen and (max-width: 650px){
+    
+    .application-dates{
+        top: 85px;
+    }
     .lists{
-        font-size: 0.6rem;
+        font-size: 0.7rem;
         width: 90%;
     }
     .requirements{
-      
+      flex: 10;
     }
+    .flag{
+        display:none;
+    }
+
 }
