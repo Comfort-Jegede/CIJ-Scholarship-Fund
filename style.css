@@ -212,7 +212,10 @@ li{
 @media screen and (max-width: 650px){
     
     .application-dates{
-        top: 85px;
+        top: 105px;
+    }
+    .body-container{
+        margin-top: 150px;
     }
     .lists{
         font-size: 0.7rem;
@@ -224,5 +227,4 @@ li{
     .flag{
         display:none;
     }
-
 }
