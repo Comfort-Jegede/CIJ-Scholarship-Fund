@@ -10,6 +10,7 @@ body{
 
 .header{
     display: flex;
+    flex-wrap:wrap;
     margin: 0;
     padding: 5px 20px;
     align-items: center;
@@ -30,6 +31,9 @@ body{
 .application-dates{
     display: flex;
     flex-direction: column;
+    position: absolute;
+    right: 15px;
+    top: 65px;
 }
 
 .dates{
@@ -198,4 +202,16 @@ li{
     0% {transform: scale(1)}
     50% {transform: scale(1.5)}
     100% {transform: scale(1)}
+}
+
+/* mobile responsive */
+
+@media screen and (max-width: 650px){
+    .lists{
+        font-size: 0.6rem;
+        width: 90%;
+    }
+    .requirements{
+      
+    }
 }
